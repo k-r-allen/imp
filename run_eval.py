@@ -52,7 +52,7 @@ parser.add_argument('--disable-distractor', action='store_true', default=False,
                                         help='Whether or not to disable distractors')
 parser.add_argument('--label-ratio', type=float, default=0.1, metavar='N',
                                         help='Portion of labeled images in the training set')
-parser.add_argument('--mode-ratio', type=float, default=0.4, metavar='N',
+parser.add_argument('--mode-ratio', type=float, default=1.0, metavar='N',
                                         help='Portion of modes in the training set')
 parser.add_argument('--nclasses-eval', type=int, default=5, metavar='N',
                                         help='Number of classes for testing')
